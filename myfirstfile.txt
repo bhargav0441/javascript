@@ -1,2 +1,0 @@
-Hi
-This is my first file to check the workflow of the GitHub/git.
