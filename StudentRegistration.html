@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="StudentRegistration">
+        <lightning-input type='text' label="studentname"  onchange={handlechange}></lightning-input>
+        <lightning-input type='text' label="phonenumber"  onchange={handlechange}></lightning-input>
+        <c-student-validation childstuname={stuname} childphnum={phnum} onchildevent={handlecheck}></c-student-validation>
+        <p>{validatename}</p>
+        <p>{validatephone}</p>
+        <lightning-button label="register" onclick={handlesubmit}></lightning-button>
+    </lightning-card>
+
+</template>
